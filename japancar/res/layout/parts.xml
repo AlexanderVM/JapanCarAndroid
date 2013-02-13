@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:id="@+id/scroll_parts"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical" >
+
+   <Spinner
+           android:id="@+id/towns_spinner"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="3dp"
+           android:entries="@array/state_s"/>
+   <Spinner
+           android:id="@+id/parts_list"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="3dp"
+           />
+   <Spinner
+           android:id="@+id/comp_list"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="3dp"
+           />
+   <Spinner
+           android:id="@+id/models_list"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="3dp"
+           />
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="3dp" >
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/frame_e"
+                >
+                    
+                </TextView>
+                <EditText
+                    android:id="@+id/frame_tf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/frame_h" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/engine_e" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/engine_tf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/engine_h" />
+            </TableRow>
+        </TableLayout>
+
+       <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/state_e">
+       </TextView>
+
+       <Spinner
+           android:id="@+id/state"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:entries="@array/state_s"/>
+       
+       <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loc_t">
+           
+       </TextView>
+       
+       <Spinner
+           android:id="@+id/loc_lr"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="3dp"
+           android:entries="@array/loc_lr_s"/>
+       
+       <Spinner
+           android:id="@+id/loc_fr"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="3dp"
+           android:entries="@array/loc_fr_s"/>
+       
+       <Spinner
+           android:id="@+id/loc_ud"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="3dp"
+           android:entries="@array/loc_ud_s"/>
+       <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/additionally">
+       </TextView>
+       
+       
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <TableRow >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:paddingRight="70dp"
+                   android:paddingLeft="40dp"
+                   android:layout_height="wrap_content"
+                   android:text="@string/photo_t">
+               </TextView>
+               <ToggleButton
+                   android:id="@+id/photo_but"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/photo_t"
+                   android:textOn="@string/yes"
+                   android:textOff="@string/no"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingRight="70dp"
+                   android:paddingLeft="40dp"
+                   android:text="@string/price_t">
+               </TextView>
+               <ToggleButton
+                   android:id="@+id/price_but"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/price_t"
+                   android:textOn="@string/yes"
+                   android:textOff="@string/no"/>
+            </TableRow>
+        </TableLayout>
+        <Button
+            android:id="@+id/searchp_but"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_t" />
+ 
+</LinearLayout>
+</ScrollView>

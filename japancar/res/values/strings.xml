@@ -1,0 +1,110 @@
+﻿<resources>
+    <string name="app_name">Japancar.ru</string>
+    <string name="list_footer">Загружаются данные</string>
+    <string name="login">Имя пользователя</string>
+    <string name="pass">Пароль</string>
+    <string name="pass_but">Зайти</string>
+    <string name="log_edit">Введите имя</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">Japancar.ru</string>
+    <string name="title_activity_parts">Japancar запчасти</string>
+    <string name="title_activity_auto">Japancar автомобили</string>
+    <string name="title_activity_spec">Japancar спецтехника</string>
+    <string name="locat_city">Расположение</string>
+    <string name="menu_settings">Settings</string>
+    <string name="parts_but">Автозапчасти</string>
+    <string name="auto_but">Автомобили</string>
+    <string name="spec_but">Спецтехника</string>
+    <string name="search_menu">Поиск : </string>
+    <string name="private_cabinet">Личный кабинет : </string>
+    <string name="new_ad">Добавить объявление</string>
+    <string name="statistics">Статистика</string>
+    <string name="my_stuff">Мои объявления</string>
+    <string name="pers">Личный кабинет</string>
+    <string name="list_city">Все города</string>
+    <string name="list_parts">Все запчасти</string>
+    <string name="list_cars">На все марки и машины</string>
+    <string name="frame_h">Укажите кузов</string>
+    <string name="engine_h">Укажите двигатель</string>
+    <string name="frame_e">Кузов</string>
+    <string name="engine_e">Двигатель</string>
+    <string name="state_e">Состояние</string>
+    <string name="loc_t">Расположение</string>
+    <string name="additionally">Дополнительно</string>
+    <string name="photo_t">Только с фото</string>
+    <string name="price_t">Только с ценой</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="search_t">Поиск</string>
+    <string name="auto_char">Характеристики автомобиля</string>
+    <string name="auto_models">Все модели и марки</string>
+    <string name="auto_year">Год выпуска</string>
+    <string name="auto_from">От</string>
+    <string name="auto_from_n">1985</string>
+    <string name="auto_to">До</string>
+    <string name="auto_to_n">2012</string>
+    <string name="auto_price">Цена</string>
+    <string name="auto_price_n">Руб</string>
+    <string name="spec_types">Все типы</string>
+    <string name="spec_models">Все марки</string>
+    <string name="spec_year_from">Год, от</string>
+    <string name="spec_year_to">Год, до</string>
+    <string name="img_small">Подробно</string>
+    <string name="parts_ts_results">Результат поиска запчастей</string>
+    <string name="auto_ts_results">Результат поиска запчастей</string>
+    <string name="test">Test Activity</string>
+    <string name= "name_part">Название запчасти:</string>
+    <string name= "loc_part">Расположение:</string>
+    <string name= "car_part">Марка:</string>
+    <string name= "frame_part">Кузов:</string>
+    <string name= "engine_part">Двигатель:</string>
+    <string name= "cond_part">Состояние:</string>
+    <string name= "code_part">Код для заказа:</string>
+    <string name= "addit_part">Примечание:</string>
+    <string name= "price">Цена:</string>
+    <string name="seller">Продавец:</string>
+    <string name="phone">Телефон:</string>
+    <string name="fax">Факс:</string>
+    <string name="web_site">Web site:</string>
+    <string name="sellers_loc">Местоположение продавца:</string>
+    
+    
+    
+    <string-array name="state_s">
+        <item>Любая</item>
+        <item>Контрактная</item>
+        <item>Новая</item>
+    </string-array>
+    
+    <string-array name="loc_lr_s">
+        <item>Любая</item>
+        <item>Левая</item>
+        <item>Правая</item>
+    </string-array>
+    
+    <string-array name="loc_fr_s">
+        <item>Любая</item>
+        <item>Передняя</item>
+        <item>Задняя</item>
+    </string-array>
+    
+    <string-array name="loc_ud_s">
+        <item>Любая</item>
+        <item>Верхняя</item>
+        <item>Нижняя</item>
+    </string-array>
+    
+    <string-array name="auto_priv_s">
+        <item>Любой</item>
+        <item>Передний</item>
+        <item>Задний</item>
+        <item>Задний</item>
+    </string-array>
+    
+    <string-array name="auto_trans_s">
+        <item>Любой</item>
+        <item>Автомат</item>
+        <item>Коробка</item>
+        <item>Вариатор</item>
+    </string-array>    
+</resources>

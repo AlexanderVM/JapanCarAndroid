@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="@string/locat_city" />
+    <Spinner
+        android:id="@+id/spec_towns_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/list_city"/>
+    <Spinner
+        android:id="@+id/spec_marks_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/list_city"/>   
+    <Spinner
+        android:id="@+id/spec_models_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/list_city"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                android:text="@string/spec_year_from"/>
+
+            <EditText
+                android:id="@+id/auto_price_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="@string/auto_from_n" >
+            </EditText>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spec_year_to" />
+            <EditText
+                android:id="@+id/auto_price_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="@string/auto_to_n" >
+            </EditText>
+        </TableRow>
+    </TableLayout>
+    <Button
+            android:id="@+id/searchs_but"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_t"/>
+</LinearLayout>
